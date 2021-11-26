@@ -22,6 +22,7 @@
 };
 
 &mwh {
+    delay-before-movement=<0>;
     acceleration-exponent=<1>;
 };
 
@@ -60,7 +61,7 @@
 
   base_layer {
     bindings = <
-      &kp Q &kp W &kp E &kp R &kp T &lt 3 Y &kp U &kp I &kp O &kp P
+      &kp Q &kp W &kp E &kp R &kp T &lt 3 Y &kp U &kp I &kp O &lt 4 P
       &kp A &kp S &mt LALT D &mt LCTRL F &kp G &lt 3 H &mt RCTRL J &mt RALT K &kp L &kp SEMI
       &mt LSHFT Z &kp X &kp C &kp V &kp B &lt 3 N &kp M &kp COMMA &kp DOT &mt RSHFT FSLH 
       &mt LALT ESC &lt 1 TAB &lt 2 SPACE &mt RALT BSPC
@@ -89,7 +90,7 @@
     bindings = <
       &trans &trans &mwh SCROLL_UP &mwh SCROLL_DOWN &trans &trans &mkp LCLK &mkp RCLK &trans &trans 
       &trans &trans &mkp RCLK &mkp LCLK &trans &trans &mkp LCLK &mkp RCLK &trans &trans 
-      &trans &trans &trans &trans &trans &trans &mkp LCLK &mkp RCL&mkp RCLK &trans &trans &trans 
+      &trans &trans &trans &trans &trans &trans &mkp LCLK &mkp RCLK &trans &trans 
       &trans &trans &mkp LCLK &trans
     >;
   };
