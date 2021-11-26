@@ -22,8 +22,11 @@
 };
 
 &mwh {
+		time-to-max-speed=<3500>;
     acceleration-exponent=<1>;
 };
+
+#define U_MOUSE_SCROLL_MAX 100;
 
 / {
  combos {
