@@ -22,11 +22,12 @@
 };
 
 &mwh {
-		time-to-max-speed-ms=<3500>;
-    acceleration-exponent=<1>;
+	delay-ms = <0>;
+	time-to-max-speed-ms=<2000>;
+  acceleration-exponent=<1>;
 };
 
-#define U_MOUSE_SCROLL_MAX 100
+#define U_MOUSE_SCROLL_MAX 200
 #undef SCROLL_UP
 #undef SCROLL_DOWN
 #define SCROLL_UP SCROLL_VERT(U_MOUSE_SCROLL_MAX)
