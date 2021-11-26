@@ -21,12 +21,16 @@
   quick_tap_ms = <200>;
 };
 
+&mwh {
+    acceleration-exponent=<1>;
+};
+
 / {
  combos {
    compatible = "zmk,combos";
    combo_enter {
     timeout-ms = <50>;
-    key-positions = <32 33>;
+    key-positions = <25 26>;
     bindings = <&kp RET>;
    };
    combo_double_quote {
@@ -38,6 +42,16 @@
     timeout-ms = <50>;
     key-positions = <18 19>;
     bindings = <&kp SQT>;
+   };
+   combo_lt {
+    timeout-ms = <50>;
+    key-positions = <26 27>;
+    bindings = <&kp LT>;
+   };
+   combo_gt {
+    timeout-ms = <50>;
+    key-positions = <27 28>;
+    bindings = <&kp GT>;
    };
  };
 
@@ -73,11 +87,21 @@
 
   mouse_layer {
     bindings = <
-      &bt BT_PRV &trans &trans &trans &trans &trans &mkp RCLK &trans &trans &trans 
-      &bt BT_NXT &trans &mkp RCLK &mkp LCLK &trans &trans &mkp RCLK &trans &trans &trans 
-      &bt BT_CLR &trans &trans &trans &trans &trans &mkp RCLK &trans &trans &trans 
+      &trans &trans &mwh SCROLL_UP &mwh SCROLL_DOWN &trans &trans &mkp LCLK &mkp RCLK &trans &trans 
+      &trans &trans &mkp RCLK &mkp LCLK &trans &trans &mkp LCLK &mkp RCLK &trans &trans 
+      &trans &trans &trans &trans &trans &trans &mkp LCLK &mkp RCL&mkp RCLK &trans &trans &trans 
       &trans &trans &mkp LCLK &trans
     >;
   };
+
+  bluetooth_layer {
+    bindings = <
+      &bt BT_PRV &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+      &bt BT_NXT &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+      &bt BT_CLR &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+      &trans &trans &trans &trans
+    >;
+  };
+
  };
 };
