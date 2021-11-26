@@ -22,7 +22,6 @@
 };
 
 &mwh {
-    delay-before-movement=<0>;
     acceleration-exponent=<1>;
 };
 
