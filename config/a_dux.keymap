@@ -36,21 +36,89 @@
 / {
  combos {
    compatible = "zmk,combos";
-   combo_enter {
+   combo_enter_1 {
     timeout-ms = <50>;
-    key-positions = <25 26>;
+    key-positions = <5 6>;
     bindings = <&kp RET>;
+   };
+   combo_enter_2 {
+    timeout-ms = <50>;
+    key-positions = <13 16>;
+    bindings = <&kp RET>;
+   };
+
+   // layer key symbol combos
+   combo_plus {
+    timeout-ms = <50>;
+    key-positions = <32 19>;
+    bindings = <&kp PLUS>;
+   };
+   combo_minus {
+    timeout-ms = <50>;
+    key-positions = <32 18>;
+    bindings = <&kp MINUS>;
    };
    combo_underscore {
     timeout-ms = <50>;
-    key-positions = <15 16>;
+    key-positions = <32 15>;
     bindings = <&kp UNDER>;
+   };
+   combo_pipe {
+    timeout-ms = <50>;
+    key-positions = <32 15>;
+    bindings = <&kp PIPE>;
+   };
+   combo_backslash {
+    timeout-ms = <50>;
+    key-positions = <32 15>;
+    bindings = <&kp BSLH>;
+   };
+   combo_excl {
+    timeout-ms = <50>;
+    key-positions = <32 0>;
+    bindings = <&kp EXCL>;
+   };
+   combo_at {
+    timeout-ms = <50>;
+    key-positions = <32 1>;
+    bindings = <&kp AT>;
+   };
+   combo_hash {
+    timeout-ms = <50>;
+    key-positions = <32 2>;
+    bindings = <&kp HASH>;
+   };
+   combo_dollar {
+    timeout-ms = <50>;
+    key-positions = <32 3>;
+    bindings = <&kp DLLR>;
+   };
+   combo_prcnt {
+    timeout-ms = <50>;
+    key-positions = <32 4>;
+    bindings = <&kp PRCNT>;
+   };
+   combo_caret {
+    timeout-ms = <50>;
+    key-positions = <32 5>;
+    bindings = <&kp CARET>;
+   };
+   combo_ampersand {
+    timeout-ms = <50>;
+    key-positions = <32 6>;
+    bindings = <&kp AMPS>;
+   };
+   combo_multiply {
+    timeout-ms = <50>;
+    key-positions = <32 7>;
+    bindings = <&kp KP_MULTIPLY>;
    };
    combo_equals {
     timeout-ms = <50>;
-    key-positions = <28 29>;
+    key-positions = <32 29>;
     bindings = <&kp EQUAL>;
    };
+
    combo_double_quote {
     timeout-ms = <50>;
     key-positions = <8 9>;
