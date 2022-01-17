@@ -215,259 +215,268 @@
 		combo_Q_left {
 			timeout-ms = <50>;
 			key-positions = <29 0>;
-			bindings = <&kp Q>;
-		};
-		combo_W_left {
-			timeout-ms = <50>;
-			key-positions = <29 1>;
-			bindings = <&kp W>;
-		};
-		combo_E_left {
-			timeout-ms = <50>;
-			key-positions = <29 2>;
-			bindings = <&kp E>;
-		};
-		combo_R_left {
-			timeout-ms = <50>;
-			key-positions = <29 3>;
-			bindings = <&kp R>;
-		};
-		combo_T_left {
-			timeout-ms = <50>;
-			key-positions = <29 4>;
-			bindings = <&kp T>;
-		};
-		combo_Y_left {
-			timeout-ms = <50>;
-			key-positions = <29 5>;
-			bindings = <&kp Y>;
-		};
-		combo_U_left {
-			timeout-ms = <50>;
-			key-positions = <29 6>;
-			bindings = <&kp U>;
-		};
-		combo_I_left {
-			timeout-ms = <50>;
-			key-positions = <29 7>;
-			bindings = <&kp I>;
-		};
-		combo_O_left {
-			timeout-ms = <50>;
-			key-positions = <29 8>;
-			bindings = <&kp O>;
-		};
-		combo_P_left {
-			timeout-ms = <50>;
-			key-positions = <29 9>;
-			bindings = <&kp P>;
-		};
-		combo_A_left {
-			timeout-ms = <50>;
-			key-positions = <29 10>;
-			bindings = <&kp A>;
-		};
-		combo_S_left {
-			timeout-ms = <50>;
-			key-positions = <29 11>;
-			bindings = <&kp S>;
-		};
-		combo_D_left {
-			timeout-ms = <50>;
-			key-positions = <29 12>;
-			bindings = <&kp D>;
-		};
-		combo_F_left {
-			timeout-ms = <50>;
-			key-positions = <29 13>;
-			bindings = <&kp F>;
-		};
-		combo_G_left {
-			timeout-ms = <50>;
-			key-positions = <29 14>;
-			bindings = <&kp G>;
-		};
-		combo_H_left {
-			timeout-ms = <50>;
-			key-positions = <29 15>;
-			bindings = <&kp H>;
-		};
-		combo_J_left {
-			timeout-ms = <50>;
-			key-positions = <29 16>;
-			bindings = <&kp J>;
-		};
-		combo_K_left {
-			timeout-ms = <50>;
-			key-positions = <29 17>;
-			bindings = <&kp K>;
-		};
-		combo_L_left {
-			timeout-ms = <50>;
-			key-positions = <29 18>;
-			bindings = <&kp L>;
+			bindings = <&kp LS(Q>;
+					};
+					combo_W_left {
+					timeout-ms = <50>;
+					key-positions = <29 1>;
+					bindings = <&kp LS(W>;
+							};
+							combo_E_left {
+							timeout-ms = <50>;
+							key-positions = <29 2>;
+							bindings = <&kp LS(E>;
+									};
+									combo_R_left {
+									timeout-ms = <50>;
+									key-positions = <29 3>;
+									bindings = <&kp LS(R>;
+											};
+											combo_T_left {
+											timeout-ms = <50>;
+											key-positions = <29 4>;
+											bindings = <&kp LS(T>;
+													};
+													combo_Y_left {
+													timeout-ms = <50>;
+													key-positions = <29 5>;
+													bindings = <&kp LS(Y>;
+															};
+															combo_U_left {
+															timeout-ms = <50>;
+															key-positions = <29 6>;
+															bindings = <&kp LS(U>;
+																	};
+																	combo_I_left {
+																	timeout-ms = <50>;
+																	key-positions = <29 7>;
+																	bindings = <&kp LS(I>;
+																			};
+																			combo_O_left {
+																			timeout-ms = <50>;
+																			key-positions = <29 8>;
+																			bindings = <&kp LS(O>;
+																					};
+																					combo_P_left {
+																					timeout-ms = <50>;
+																					key-positions = <29 9>;
+																					bindings = <&kp LS(P>;
+																							};
+																							combo_A_left {
+																							timeout-ms = <50>;
+																							key-positions = <29 10>;
+																							bindings = <&kp LS(A>;
+																									};
+																									combo_S_left {
+																									timeout-ms = <50>;
+																									key-positions = <29 11>;
+																									bindings = <&kp LS(S>;
+																											};
+																											combo_D_left {
+																											timeout-ms = <50>;
+																											key-positions = <29 12>;
+																											bindings = <&kp LS(D>;
+																													};
+																													combo_F_left {
+																													timeout-ms = <50>;
+																													key-positions = <29 13>;
+																													bindings = <&kp LS(F>;
+																															};
+																															combo_G_left {
+																															timeout-ms = <50>;
+																															key-positions = <29 14>;
+																															bindings = <&kp LS(G>;
+																																	};
+																																	combo_H_left {
+																																	timeout-ms = <50>;
+																																	key-positions = <29 15>;
+																																	bindings = <&kp LS(H>;
+																																			};
+																																			combo_J_left {
+																																			timeout-ms = <50>;
+																																			key-positions = <29 16>;
+																																			bindings = <&kp LS(J>;
+																																					};
+																																					combo_K_left {
+																																					timeout-ms = <50>;
+																																					key-positions = <29 17>;
+																																					bindings = <&kp LS(K>;
+																																							};
+																																							combo_L_left {
+																																							timeout-ms = <50>;
+																																							key-positions = <29 18>;
+																																							bindings = <&kp LS(L>;
+																																									};
+combo_:_left {
+timeout-ms = <50>;
+key-positions = <29 19>;
+bindings = <&kp LS(:>;
 		};
 		combo_Z_left {
-			timeout-ms = <50>;
-			key-positions = <29 20>;
-			bindings = <&kp Z>;
-		};
-		combo_X_left {
-			timeout-ms = <50>;
-			key-positions = <29 21>;
-			bindings = <&kp X>;
-		};
-		combo_C_left {
-			timeout-ms = <50>;
-			key-positions = <29 22>;
-			bindings = <&kp C>;
-		};
-		combo_V_left {
-			timeout-ms = <50>;
-			key-positions = <29 23>;
-			bindings = <&kp V>;
-		};
-		combo_B_left {
-			timeout-ms = <50>;
-			key-positions = <29 24>;
-			bindings = <&kp B>;
-		};
-		combo_N_left {
-			timeout-ms = <50>;
-			key-positions = <29 25>;
-			bindings = <&kp N>;
-		};
-		combo_M_left {
-			timeout-ms = <50>;
-			key-positions = <29 26>;
-			bindings = <&kp M>;
-		};
-		combo_Q_right {
-			timeout-ms = <50>;
-			key-positions = <20 0>;
-			bindings = <&kp Q>;
-		};
-		combo_W_right {
-			timeout-ms = <50>;
-			key-positions = <20 1>;
-			bindings = <&kp W>;
-		};
-		combo_E_right {
-			timeout-ms = <50>;
-			key-positions = <20 2>;
-			bindings = <&kp E>;
-		};
-		combo_R_right {
-			timeout-ms = <50>;
-			key-positions = <20 3>;
-			bindings = <&kp R>;
-		};
-		combo_T_right {
-			timeout-ms = <50>;
-			key-positions = <20 4>;
-			bindings = <&kp T>;
-		};
-		combo_Y_right {
-			timeout-ms = <50>;
-			key-positions = <20 5>;
-			bindings = <&kp Y>;
-		};
-		combo_U_right {
-			timeout-ms = <50>;
-			key-positions = <20 6>;
-			bindings = <&kp U>;
-		};
-		combo_I_right {
-			timeout-ms = <50>;
-			key-positions = <20 7>;
-			bindings = <&kp I>;
-		};
-		combo_O_right {
-			timeout-ms = <50>;
-			key-positions = <20 8>;
-			bindings = <&kp O>;
-		};
-		combo_P_right {
-			timeout-ms = <50>;
-			key-positions = <20 9>;
-			bindings = <&kp P>;
-		};
-		combo_A_right {
-			timeout-ms = <50>;
-			key-positions = <20 10>;
-			bindings = <&kp A>;
-		};
-		combo_S_right {
-			timeout-ms = <50>;
-			key-positions = <20 11>;
-			bindings = <&kp S>;
-		};
-		combo_D_right {
-			timeout-ms = <50>;
-			key-positions = <20 12>;
-			bindings = <&kp D>;
-		};
-		combo_F_right {
-			timeout-ms = <50>;
-			key-positions = <20 13>;
-			bindings = <&kp F>;
-		};
-		combo_G_right {
-			timeout-ms = <50>;
-			key-positions = <20 14>;
-			bindings = <&kp G>;
-		};
-		combo_H_right {
-			timeout-ms = <50>;
-			key-positions = <20 15>;
-			bindings = <&kp H>;
-		};
-		combo_J_right {
-			timeout-ms = <50>;
-			key-positions = <20 16>;
-			bindings = <&kp J>;
-		};
-		combo_K_right {
-			timeout-ms = <50>;
-			key-positions = <20 17>;
-			bindings = <&kp K>;
-		};
-		combo_L_right {
-			timeout-ms = <50>;
-			key-positions = <20 18>;
-			bindings = <&kp L>;
-		};
-		combo_X_right {
-			timeout-ms = <50>;
-			key-positions = <20 21>;
-			bindings = <&kp X>;
-		};
-		combo_C_right {
-			timeout-ms = <50>;
-			key-positions = <20 22>;
-			bindings = <&kp C>;
-		};
-		combo_V_right {
-			timeout-ms = <50>;
-			key-positions = <20 23>;
-			bindings = <&kp V>;
-		};
-		combo_B_right {
-			timeout-ms = <50>;
-			key-positions = <20 24>;
-			bindings = <&kp B>;
-		};
-		combo_N_right {
-			timeout-ms = <50>;
-			key-positions = <20 25>;
-			bindings = <&kp N>;
-		};
-		combo_M_right {
-			timeout-ms = <50>;
-			key-positions = <20 26>;
-			bindings = <&kp M>;
-		};
-
+		timeout-ms = <50>;
+		key-positions = <29 20>;
+		bindings = <&kp LS(Z>;
+				};
+				combo_X_left {
+				timeout-ms = <50>;
+				key-positions = <29 21>;
+				bindings = <&kp LS(X>;
+						};
+						combo_C_left {
+						timeout-ms = <50>;
+						key-positions = <29 22>;
+						bindings = <&kp LS(C>;
+								};
+								combo_V_left {
+								timeout-ms = <50>;
+								key-positions = <29 23>;
+								bindings = <&kp LS(V>;
+										};
+										combo_B_left {
+										timeout-ms = <50>;
+										key-positions = <29 24>;
+										bindings = <&kp LS(B>;
+												};
+												combo_N_left {
+												timeout-ms = <50>;
+												key-positions = <29 25>;
+												bindings = <&kp LS(N>;
+														};
+														combo_M_left {
+														timeout-ms = <50>;
+														key-positions = <29 26>;
+														bindings = <&kp LS(M>;
+																};
+																combo_Q_right {
+																timeout-ms = <50>;
+																key-positions = <20 0>;
+																bindings = <&kp LS(Q)>;
+																};
+																combo_W_right {
+																timeout-ms = <50>;
+																key-positions = <20 1>;
+																bindings = <&kp LS(W)>;
+																};
+																combo_E_right {
+																timeout-ms = <50>;
+																key-positions = <20 2>;
+																bindings = <&kp LS(E)>;
+																};
+																combo_R_right {
+																timeout-ms = <50>;
+																key-positions = <20 3>;
+																bindings = <&kp LS(R)>;
+																};
+																combo_T_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 4>;
+																	bindings = <&kp LS(T)>;
+																};
+																combo_Y_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 5>;
+																	bindings = <&kp LS(Y)>;
+																};
+																combo_U_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 6>;
+																	bindings = <&kp LS(U)>;
+																};
+																combo_I_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 7>;
+																	bindings = <&kp LS(I)>;
+																};
+																combo_O_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 8>;
+																	bindings = <&kp LS(O)>;
+																};
+																combo_P_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 9>;
+																	bindings = <&kp LS(P)>;
+																};
+																combo_A_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 10>;
+																	bindings = <&kp LS(A)>;
+																};
+																combo_S_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 11>;
+																	bindings = <&kp LS(S)>;
+																};
+																combo_D_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 12>;
+																	bindings = <&kp LS(D)>;
+																};
+																combo_F_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 13>;
+																	bindings = <&kp LS(F)>;
+																};
+																combo_G_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 14>;
+																	bindings = <&kp LS(G)>;
+																};
+																combo_H_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 15>;
+																	bindings = <&kp LS(H)>;
+																};
+																combo_J_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 16>;
+																	bindings = <&kp LS(J)>;
+																};
+																combo_K_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 17>;
+																	bindings = <&kp LS(K)>;
+																};
+																combo_L_right {
+																	timeout-ms = <50>;
+																	key-positions = <20 18>;
+																	bindings = <&kp LS(L)>;
+																};
+combo_:_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 19>;
+	       bindings = <&kp LS(:)>;
+       };
+       combo_X_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 21>;
+	       bindings = <&kp LS(X)>;
+       };
+       combo_C_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 22>;
+	       bindings = <&kp LS(C)>;
+       };
+       combo_V_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 23>;
+	       bindings = <&kp LS(V)>;
+       };
+       combo_B_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 24>;
+	       bindings = <&kp LS(B)>;
+       };
+       combo_N_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 25>;
+	       bindings = <&kp LS(N)>;
+       };
+       combo_M_right {
+	       timeout-ms = <50>;
+	       key-positions = <20 26>;
+	       bindings = <&kp LS(M)>;
+       };
 
 	};
 
