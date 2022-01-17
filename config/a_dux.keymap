@@ -23,7 +23,7 @@
 
 &mwh {
   delay-ms = <0>;
-  time-to-max-speed-ms=<10>;
+  time-to-max-speed-ms=<1>;
   acceleration-exponent=<1>;
 };
 
