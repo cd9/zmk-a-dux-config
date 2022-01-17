@@ -120,7 +120,6 @@
    };
 
    //num combos
-
    combo_0 {
     timeout-ms = <50>;
     key-positions = <31 0>;
@@ -170,11 +169,6 @@
     timeout-ms = <50>;
     key-positions = <31 9>;
     bindings = <&kp 9>;
-   };
-   combo_0 {
-    timeout-ms = <50>;
-    key-positions = <31 10>;
-    bindings = <&kp 0>;
    };
 
    combo_double_quote {
