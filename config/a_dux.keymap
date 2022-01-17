@@ -58,6 +58,7 @@
     key-positions = <32 18>;
     bindings = <&kp MINUS>;
    };
+
    combo_underscore {
     timeout-ms = <50>;
     key-positions = <32 15>;
@@ -65,12 +66,12 @@
    };
    combo_pipe {
     timeout-ms = <50>;
-    key-positions = <32 15>;
+    key-positions = <32 25>;
     bindings = <&kp PIPE>;
    };
    combo_backslash {
     timeout-ms = <50>;
-    key-positions = <32 15>;
+    key-positions = <32 27>;
     bindings = <&kp BSLH>;
    };
    combo_excl {
@@ -120,55 +121,55 @@
    };
 
    //num combos
-   combo_0 {
-    timeout-ms = <50>;
-    key-positions = <31 0>;
-    bindings = <&kp 0>;
-   };
    combo_1 {
     timeout-ms = <50>;
-    key-positions = <31 1>;
-    bindings = <&kp 1>;
+    key-positions = <31 0>;
+    bindings = <&kp N1>;
    };
    combo_2 {
     timeout-ms = <50>;
-    key-positions = <31 2>;
-    bindings = <&kp 2>;
+    key-positions = <31 1>;
+    bindings = <&kp N2>;
    };
    combo_3 {
-    timeout-ms = <50>;
-    key-positions = <31 3>;
-    bindings = <&kp 3>;
+    timeout-ms = <50>
+    key-positions = <31 2>;
+    bindings = <&kp N3>;
    };
    combo_4 {
     timeout-ms = <50>;
-    key-positions = <31 4>;
-    bindings = <&kp 4>;
+    key-positions = <31 3>;
+    bindings = <&kp N4>;
    };
    combo_5 {
     timeout-ms = <50>;
-    key-positions = <31 5>;
-    bindings = <&kp 5>;
+    key-positions = <31 4>;
+    bindings = <&kp N5>;
    };
    combo_6 {
     timeout-ms = <50>;
-    key-positions = <31 6>;
-    bindings = <&kp 6>;
+    key-positions = <31 5>;
+    bindings = <&kp N6>;
    };
    combo_7 {
     timeout-ms = <50>;
-    key-positions = <31 7>;
-    bindings = <&kp 7>;
+    key-positions = <31 6>;
+    bindings = <&kp N7>;
    };
    combo_8 {
     timeout-ms = <50>;
-    key-positions = <31 8>;
-    bindings = <&kp 8>;
+    key-positions = <31 7>;
+    bindings = <&kp N8>;
    };
    combo_9 {
     timeout-ms = <50>;
+    key-positions = <31 8>;
+    bindings = <&kp N9>;
+   };
+   combo_0 {
+    timeout-ms = <50>;
     key-positions = <31 9>;
-    bindings = <&kp 9>;
+    bindings = <&kp N0>;
    };
 
    combo_double_quote {
