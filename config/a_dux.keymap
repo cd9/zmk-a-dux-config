@@ -11,19 +11,19 @@
 
 &mt {
   flavor = "balanced";
-  tapping_term_ms = <150>;
+  tapping_term_ms = <125>;
   quick_tap_ms = <200>;
 };
 
 &lt {
   flavor = "balanced";
-  tapping_term_ms = <150>;
+  tapping_term_ms = <125>;
   quick_tap_ms = <200>;
 };
 
 &mwh {
-	delay-ms = <0>;
-	time-to-max-speed-ms=<2000>;
+  delay-ms = <0>;
+  time-to-max-speed-ms=<10>;
   acceleration-exponent=<1>;
 };
 
@@ -38,7 +38,7 @@
    compatible = "zmk,combos";
    combo_enter {
     timeout-ms = <50>;
-    key-positions = <16 17>;
+    key-positions = <25 26>;
     bindings = <&kp RET>;
    };
    combo_double_quote {
@@ -61,6 +61,26 @@
     key-positions = <27 28>;
     bindings = <&kp GT>;
    };
+   combo_curly_left {
+    timeout-ms = <50>;
+    key-positions = <16 17>;
+    bindings = <&kp LBRC>;
+   };
+   combo_curly_right {
+    timeout-ms = <50>;
+    key-positions = <17 18>;
+    bindings = <&kp RBRC>;
+   };
+   combo_round_left {
+    timeout-ms = <50>;
+    key-positions = <6 7>;
+    bindings = <&kp LPAR>;
+   };
+   combo_round_right {
+    timeout-ms = <50>;
+    key-positions = <7 8>;
+    bindings = <&kp RPAR>;
+   };
  };
 
  keymap {
@@ -80,7 +100,7 @@
       &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
       &trans &trans &trans &kp F &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
       &kp LSHFT &trans &trans &trans &trans &trans &trans &kp COMMA &kp DOT &kp RSHFT
-      &trans &trans &trans &trans
+      &trans &trans &trans &kp LGUI
     >;
   };
 
