@@ -119,6 +119,64 @@
     bindings = <&kp EQUAL>;
    };
 
+   //num combos
+
+   combo_0 {
+    timeout-ms = <50>;
+    key-positions = <31 0>;
+    bindings = <&kp 0>;
+   };
+   combo_1 {
+    timeout-ms = <50>;
+    key-positions = <31 1>;
+    bindings = <&kp 1>;
+   };
+   combo_2 {
+    timeout-ms = <50>;
+    key-positions = <31 2>;
+    bindings = <&kp 2>;
+   };
+   combo_3 {
+    timeout-ms = <50>;
+    key-positions = <31 3>;
+    bindings = <&kp 3>;
+   };
+   combo_4 {
+    timeout-ms = <50>;
+    key-positions = <31 4>;
+    bindings = <&kp 4>;
+   };
+   combo_5 {
+    timeout-ms = <50>;
+    key-positions = <31 5>;
+    bindings = <&kp 5>;
+   };
+   combo_6 {
+    timeout-ms = <50>;
+    key-positions = <31 6>;
+    bindings = <&kp 6>;
+   };
+   combo_7 {
+    timeout-ms = <50>;
+    key-positions = <31 7>;
+    bindings = <&kp 7>;
+   };
+   combo_8 {
+    timeout-ms = <50>;
+    key-positions = <31 8>;
+    bindings = <&kp 8>;
+   };
+   combo_9 {
+    timeout-ms = <50>;
+    key-positions = <31 9>;
+    bindings = <&kp 9>;
+   };
+   combo_0 {
+    timeout-ms = <50>;
+    key-positions = <31 10>;
+    bindings = <&kp 0>;
+   };
+
    combo_double_quote {
     timeout-ms = <50>;
     key-positions = <8 9>;
