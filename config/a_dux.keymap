@@ -58,7 +58,6 @@
     key-positions = <32 18>;
     bindings = <&kp MINUS>;
    };
-
    combo_underscore {
     timeout-ms = <50>;
     key-positions = <32 15>;
@@ -132,7 +131,7 @@
     bindings = <&kp N2>;
    };
    combo_3 {
-    timeout-ms = <50>
+    timeout-ms = <50>;
     key-positions = <31 2>;
     bindings = <&kp N3>;
    };
