@@ -46,6 +46,12 @@
 			key-positions = <25 26>;
 			bindings = <&kp RET>;
 		};
+		combo_colon {
+			timeout-ms = <25>;
+			key-positions = <19 29>;
+			bindings = <&kp LS(SEMI)>;
+		};
+
 
 		// layer key symbol combos
 		combo_plus {
