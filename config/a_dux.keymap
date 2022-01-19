@@ -36,9 +36,14 @@
 / {
 	combos {
 		compatible = "zmk,combos";
-		combo_enter {
+		combo_enter_0 {
 			timeout-ms = <25>;
 			key-positions = <15 16>;
+			bindings = <&kp RET>;
+		};
+		combo_enter_1 {
+			timeout-ms = <25>;
+			key-positions = <25 26>;
 			bindings = <&kp RET>;
 		};
 
