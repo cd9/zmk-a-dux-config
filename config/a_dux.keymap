@@ -285,5 +285,14 @@
 				&trans &trans &trans &trans
 				>;
 		};
+
+		media_layer {
+			bindings = <
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
+				&trans &trans &trans &trans
+				>;
+		};
 	};
 };
