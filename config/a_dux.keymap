@@ -285,15 +285,5 @@
 				&trans &trans &trans &trans
 				>;
 		};
-
-		media_layer {
-			bindings = <
-				&trans &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-				&trans &trans &trans &trans &kp K_PREV &kp K_VOL_DOWN &kp K_VOL_UP &kp K_NEXT &trans &trans 
-				&trans &trans &trans &trans &trans &kp K_PP &trans &trans &trans &trans 
-				&trans &trans &trans &trans
-				>;
-		};
-
 	};
 };
