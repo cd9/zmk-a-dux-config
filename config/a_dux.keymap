@@ -27,6 +27,13 @@
 	acceleration-exponent=<1>;
 };
 
+&mmv {
+	delay-ms = <0>;
+	time-to-max-speed-ms=<400>;
+	acceleration-exponent=<2>;
+};
+
+
 #define U_MOUSE_SCROLL_MAX 50
 #undef SCROLL_UP
 #undef SCROLL_DOWN
