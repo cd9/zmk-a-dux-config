@@ -79,7 +79,7 @@
 		combo_assignment_macro {
 			timeout-ms = <25>;
 			key-positions = <28 29>;
-			bindings = <&space_enter_space>;
+			bindings = <&space_equals_space>;
 		}
 
 
