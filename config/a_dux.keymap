@@ -51,7 +51,7 @@
 #define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
 
 / {
-/*
+/* MACROS (needs zmk update)
 	macros {
 		space_equals_space: space_equals_space {
 		    label = "space_equals_space";
@@ -78,12 +78,13 @@
 			key-positions = <19 29>;
 			bindings = <&kp LS(SEMI)>;
 		};
+/* MACROS (needs zmk update)
 		combo_assignment_macro {
 			timeout-ms = <25>;
 			key-positions = <28 29>;
 			bindings = <&space_equals_space>;
 		};
-
+*/
 
 		// layer key symbol combos
 		combo_plus {
