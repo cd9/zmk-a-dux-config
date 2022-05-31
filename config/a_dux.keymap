@@ -51,6 +51,7 @@
 #define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
 
 / {
+/*
 	macros {
 		space_equals_space: space_equals_space {
 		    label = "space_equals_space";
@@ -59,6 +60,7 @@
 		    bindings = <&macro_tap &kp SPACE &kp EQUAL &kp SPACE>;
 		};
 	}
+*/
 	combos {
 		compatible = "zmk,combos";
 		combo_enter_0 {
@@ -283,7 +285,7 @@
 		lower_layer {
 			bindings = <
 				&kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0
-				&trans &trans &trans &kp F &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
+				&kp LALT &trans &trans &kp F &trans &kp LEFT &kp DOWN &kp UP &kp RIGHT &trans
 				&kp LSHFT &trans &trans &trans &trans &trans &trans &kp COMMA &kp DOT &kp RSHFT
 				&trans &trans &trans &kp LGUI
 				>;
