@@ -177,6 +177,11 @@
 			key-positions = <32 29>;
 			bindings = <&kp EQUAL>;
 		};
+		combo_equals_alt {
+			timeout-ms = <25>;
+			key-positions = <28 29>;
+			bindings = <&kp EQUAL>;
+		};
 		combo_curly_left {
 			timeout-ms = <25>;
 			key-positions = <32 16>;
