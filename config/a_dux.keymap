@@ -114,52 +114,52 @@
 		};
 		combo_excl {
 			timeout-ms = <25>;
-			key-positions = <32 0>;
+			key-positions = <17 0>;
 			bindings = <&kp EXCL>;
 		};
 		combo_at {
 			timeout-ms = <25>;
-			key-positions = <32 1>;
+			key-positions = <17 1>;
 			bindings = <&kp AT>;
 		};
 		combo_hash {
 			timeout-ms = <25>;
-			key-positions = <32 2>;
+			key-positions = <17 2>;
 			bindings = <&kp HASH>;
 		};
 		combo_dollar {
 			timeout-ms = <25>;
-			key-positions = <32 3>;
+			key-positions = <17 3>;
 			bindings = <&kp DLLR>;
 		};
 		combo_prcnt {
 			timeout-ms = <25>;
-			key-positions = <32 4>;
+			key-positions = <17 4>;
 			bindings = <&kp PRCNT>;
 		};
 		combo_caret {
 			timeout-ms = <25>;
-			key-positions = <32 5>;
+			key-positions = <12 5>;
 			bindings = <&kp CARET>;
 		};
 		combo_ampersand {
 			timeout-ms = <25>;
-			key-positions = <32 6>;
+			key-positions = <12 6>;
 			bindings = <&kp AMPS>;
 		};
 		combo_multiply {
 			timeout-ms = <25>;
-			key-positions = <32 7>;
+			key-positions = <12 7>;
 			bindings = <&kp KP_MULTIPLY>;
 		};
 		combo_round_left {
 			timeout-ms = <25>;
-			key-positions = <32 8>;
+			key-positions = <12 8>;
 			bindings = <&kp LPAR>;
 		};
 		combo_round_right {
 			timeout-ms = <25>;
-			key-positions = <32 9>;
+			key-positions = <12 9>;
 			bindings = <&kp RPAR>;
 		};
 		combo_round_left_alt {
@@ -221,52 +221,52 @@
 		//num combos
 		combo_1 {
 			timeout-ms = <25>;
-			key-positions = <31 0>;
+			key-positions = <16 0>;
 			bindings = <&kp N1>;
 		};
 		combo_2 {
 			timeout-ms = <25>;
-			key-positions = <31 1>;
+			key-positions = <16 1>;
 			bindings = <&kp N2>;
 		};
 		combo_3 {
 			timeout-ms = <25>;
-			key-positions = <31 2>;
+			key-positions = <16 2>;
 			bindings = <&kp N3>;
 		};
 		combo_4 {
 			timeout-ms = <25>;
-			key-positions = <31 3>;
+			key-positions = <16 3>;
 			bindings = <&kp N4>;
 		};
 		combo_5 {
 			timeout-ms = <25>;
-			key-positions = <31 4>;
+			key-positions = <16 4>;
 			bindings = <&kp N5>;
 		};
 		combo_6 {
 			timeout-ms = <25>;
-			key-positions = <31 5>;
+			key-positions = <13 5>;
 			bindings = <&kp N6>;
 		};
 		combo_7 {
 			timeout-ms = <25>;
-			key-positions = <31 6>;
+			key-positions = <13 6>;
 			bindings = <&kp N7>;
 		};
 		combo_8 {
 			timeout-ms = <25>;
-			key-positions = <31 7>;
+			key-positions = <13 7>;
 			bindings = <&kp N8>;
 		};
 		combo_9 {
 			timeout-ms = <25>;
-			key-positions = <31 8>;
+			key-positions = <13 8>;
 			bindings = <&kp N9>;
 		};
 		combo_0 {
 			timeout-ms = <25>;
-			key-positions = <31 9>;
+			key-positions = <13 9>;
 			bindings = <&kp N0>;
 		};
 	};
